@@ -43,7 +43,7 @@
 <details>
   <summary>description</summary>
 
-- def. digital electronic switch working according to boolean logic
+- def. digital electronic switch working according to **boolean logic**
 - elemental building blocks for computers
 - build from electronical components (transistors / diods / weerstanden) (one port contains around 1-10 transistors)
 - mostly grouped into **integrated circuits**
@@ -55,7 +55,7 @@
 
 - mostly multiple ins one out
 - signals can only be 1 at 3.5 volt or 0 at 0.5 volt
-- possible inputs is always $2^n$
+- possible input combinations is always $2^#inputs$
 
 </details>
 
@@ -148,32 +148,32 @@ state options :
 
 | a   | b   | c   | d   | c and d = x | c xor d = z | x buff by a = y | z buff by b = w | m   |
 | --- | --- | --- | --- | ----------- | ----------- | --------------- | --------------- | --- |
-| t   | t   | t   | t   | T           | F           | hi-z            | hi-z            | -   |
-| t   | t   | t   | f   | F           | T           | hi-z            | hi-z            | -   |
-| t   | t   | f   | t   | F           | T           | hi-z            | hi-z            | -   |
-| t   | t   | f   | f   | F           | F           | hi-z            | hi-z            | -   |
-| t   | f   | t   | t   | T           | F           | hi-z            | F               | F   |
-| t   | f   | t   | f   | F           | T           | hi-z            | T               | T   |
-| t   | f   | f   | t   | F           | T           | hi-z            | T               | T   |
-| t   | f   | f   | f   | F           | F           | hi-z            | F               | F   |
-| f   | t   | t   | t   | T           | F           | T               | hi-z            | T   |
-| f   | t   | t   | f   | F           | T           | F               | hi-z            | F   |
-| f   | t   | f   | t   | F           | T           | F               | hi-z            | F   |
-| f   | t   | f   | f   | F           | F           | F               | hi-z            | F   |
-| f   | f   | t   | t   | T           | F           | T               | F               | x   |
-| f   | f   | t   | f   | F           | T           | F               | T               | x   |
-| f   | f   | f   | f   | F           | F           | F               | F               | F   |
+| t   | t   | t   | t   | T           | F           | T               | F               | x   |
+| t   | t   | t   | f   | F           | T           | F               | T               | x   |
+| t   | t   | f   | t   | F           | T           | F               | T               | x   |
+| t   | t   | f   | f   | F           | F           | F               | F               | F   |
+| t   | f   | t   | t   | T           | F           | T               | hi-z            | T   |
+| t   | f   | t   | f   | F           | T           | F               | hi-z            | F   |
+| t   | f   | f   | t   | F           | T           | F               | hi-z            | F   |
+| t   | f   | f   | f   | F           | F           | F               | hi-z            | F   |
+| f   | t   | t   | t   | T           | F           | hi-z            | F               | F   |
+| f   | t   | t   | f   | F           | T           | hi-z            | T               | T   |
+| f   | t   | f   | t   | F           | T           | hi-z            | T               | T   |
+| f   | t   | f   | f   | F           | F           | hi-z            | F               | F   |
+| f   | f   | t   | t   | T           | F           | hi-z            | hi-z            | -   |
+| f   | f   | t   | f   | F           | T           | hi-z            | hi-z            | -   |
+| f   | f   | f   | f   | F           | F           | hi-z            | hi-z            | -   |
 
 | a   | b   | c   | a and b = d | a xor b = e | b or c = f | d buff by a = g | f buff by e =h | m   |
 | --- | --- | --- | ----------- | ----------- | ---------- | --------------- | -------------- | --- |
 | 1   | 1   | 1   | 1           | 0           | 1          | 1               | 1              | 1   |
 | 1   | 1   | 0   | 1           | 0           | 1          | 1               | 1              | 1   |
-| 1   | 0   | 1   | 0           | 1           | 1          | 0               | hi-z           | 0   |
-| 1   | 0   | 0   | 0           | 1           | 0          | 0               | hi-z           | 0   |
-| 0   | 1   | 1   | 0           | 1           | 1          | hi-z            | hi-z           | -   |
-| 0   | 1   | 0   | 0           | 1           | 1          | hi-z            | hi-z           | -   |
-| 0   | 0   | 1   | 0           | 0           | 1          | hi-z            | 1              | 1   |
-| 0   | 0   | 0   | 0           | 0           | 0          | hi-z            | 0              | 0   |
+| 1   | 0   | 1   | 0           | 1           | 1          | 0               | 1              | x   |
+| 1   | 0   | 0   | 0           | 1           | 0          | 0               | 0              | 0   |
+| 0   | 1   | 1   | 0           | 1           | 1          | hi-z            | 1              | 1   |
+| 0   | 1   | 0   | 0           | 1           | 1          | hi-z            | 1              | 1   |
+| 0   | 0   | 1   | 0           | 0           | 1          | hi-z            | hi-z           | -   |
+| 0   | 0   | 0   | 0           | 0           | 0          | hi-z            | hi-z           | -   |
 
 </details>
 

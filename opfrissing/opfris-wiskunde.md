@@ -12,8 +12,6 @@ $$
 
 ### eigenschappen optelling en vermenigvuldiging
 
-
-
 bewerkingen op reele getallen
 
 * optellen
@@ -129,3 +127,58 @@ $$
 ![image-20200928053323991](C:\Users\henri\AppData\Roaming\Typora\typora-user-images\image-20200928053323991.png)
 
 ![image-20200928053330730](C:\Users\henri\AppData\Roaming\Typora\typora-user-images\image-20200928053330730.png)
+
+
+
+
+
+## proof and mathematical reasoning
+
+
+
+### symbols
+
+<img src="https://res.cloudinary.com/dri8yyakb/image/upload/v1602482793/Screenshot_2020-10-12_080517_arsgfp.png"/>
+
+### definition of proof 
+
+two big groups of proofs 
+
+- direct proof = assume a hypothesis and logicaly deduce a conclussion
+- indirect proof = assume a hypothesis together with a negation of a conclussion to reach a contradiction 
+
+
+$$
+A \Rightarrow B = \text{A is sufficient for B and B is necessary for A} \\
+A \Leftarrow B = \text{A is necassary for B and B is sufficient for A} \\
+A \Leftrightarrow B = \text{A is both necessary and sufficient for B}
+$$
+
+### direct proof
+
+- series of statements each one supporting the next 
+- makes use of axioms 
+- makes use of previously established statements of other theorems 
+
+Math
+				
+					
+				
+				
+						
+				
+			
+			
+
+
+​				
+​				
+					$$
+				xxxxxxxxxx A \Rightarrow B = \text{A is sufficient for B and B is necessary for A} \\A \Leftarrow B = \text{A is necassary for B and B is sufficient for A} \\A \Leftrightarrow B = \text{A is both necessary and sufficient for B}
+				$$
+### indirect proof
+
+
+
+
+
