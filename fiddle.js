@@ -1,5 +1,4 @@
 const primes = [2, 3, 5, 7, 11, 13]
-
 function primeFactorization(nrs) {
     let primeFactorizations = []
     let x
@@ -90,8 +89,6 @@ function gcd(nrs) {
     return productOfArrElement(intersection)
 }
 
-gcd([100, 200, 250])
-
 // least common multiplicator function (lcm) - ductch (kgv)
 // find every factor of the number but don't duplicate 
 function lcm(nrs) {
@@ -100,4 +97,5 @@ function lcm(nrs) {
     return productOfArrElement(factorsArr)
 }
 
+gcd([100, 200, 250])
 lcm([100, 250])

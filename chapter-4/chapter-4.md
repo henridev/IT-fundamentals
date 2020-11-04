@@ -26,6 +26,12 @@
       align-items: center;
       background: transparent
   }
+  #note {
+    padding: 200px;
+    height: 700px;
+    width: 1000px;
+    transform:  rotate(90deg);
+  }
 </style>
 
 # hoofdstuk 3 - Boolean Algebra
@@ -46,7 +52,7 @@
   \text{for all } x,y,z \in s \text{ axioms of huntington are valid} \\
   \text{ commutatief } x+y=y+x \text{ and } x.y=y.x  \\
   \text{ distributief } x+(y.z)=(x+y).(x+z) \text{ and } x.(y+z)=(x.y)+(x.z) \\
-  \text{ identity laws } x+0=x \text{ and } x.0=x \\
+  \text{ identity laws } x+0=x \text{ and } x.1=x \\
   \text{ complements } x+\overline{x}=1 \text{ and } x*\overline{x}=0  \\
   \shortparallel \\
   b = (s, +, \dot{ } , -,0,1 ) \\
@@ -66,6 +72,16 @@
 - `.` stelt de conjuctie voor (AND)
 - `-` stelt de negatie voor (NOT)
 
+
+### kgv en ggd notes
+
+<img src="https://res.cloudinary.com/dri8yyakb/image/upload/v1604471434/IMG_20201104_072828_d3ktq1.jpg" id="note">
+
+$$
+
+$$
+
+<img >
 <details>
   <summary>duality principal</summary>
 
