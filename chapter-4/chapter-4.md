@@ -402,7 +402,10 @@ $$
 
 $$
 (x+\overline{y})*(\overline{x}*y) =  \overline{x}*\overline{y}+x*y \\
-(x*y*z) + (\overline{x}*\overline{y}*\overline{z}) \rightarrow (x+y+z) * (\overline{x}+\overline{y}+\overline{z})\\
+x*y*\overline{y}*z+x*z=x*y+\overline{y}*z\\
+x*\overline{z}*\overline{x}*\overline{z}+\overline{y}*z=\overline{y}*\overline{z}\\
+x*y+x*\overline{\overline{y}+\overline{x}*\overline{y}}=y\\
+(x*y+x*u)*(z*u+\overline{x}*u)*(\overline{y}*z+\overline{x}*\overline{y})*x*\overline{y}=x*\overline{y}*z*u\\
 $$
 
 ## equivalence
