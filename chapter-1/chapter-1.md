@@ -1,28 +1,6 @@
-<style>
-  summary, h1 {
-    font-size: 25px;
-    font-weight: bold
-  }
-
-  img { 
-    zoom: 0.7;
-    margin: 0 auto
-  }
-
-  u {
-    font-size: 20px
-  }
-
-  .exam-question {
-    color: red;
-    font-weight: bold; 
-  }
-</style>
-
 # hoofdstuk 1 - getallensystemen of talstelsels
 
-<details>
-  <summary>inhoud</summary>
+## inhoud
 
 - Positionele systemen
   - Inleiding
@@ -51,18 +29,17 @@
   - IEEE754 binary32 getalwaarde van een decimaal getal
   - Oefeningen op floating-point
 
-</details>
+## I. Positionele systeem
 
-<details>
-  <summary>Positionele systeem</summary>
+**cijfer** = symbool gebruikt om getallen voor te stellen
 
-- **cijfer** = symbool gebruikt om getallen voor te stellen
-- **getal** = aaneeschakeling van cijfers die een bepaalde waarde aantoont
+**getal** = aaneeschakeling van cijfers die een bepaalde waarde aantoont
 
-==> positie in het getal bepaald de betekenis van het cijfer (met hoeveel we het moeten vermenigvuldigen)
+> positie in het getal bepaald de betekenis van het cijfer (met hoeveel we het moeten vermenigvuldigen)
 
-- eg. 110 = 1 _ 100 + 1 _ 10
-- eg. 101 = 1 \* 100 + 1
+$$
+110 = 1*{100} + 1*{10}
+$$
 
 **positionleel talsstelsel** = talstelsel waarbij getallen door een reeks symbolen worden voorgesteld. de plaats van dit symbool bepaald de betekenis daarbij
 
@@ -71,11 +48,17 @@ het bestaat uit :
 - grondtal A
 - verzameling cijfers waarbij aantal cijfers in de verzameling = A
 
-**<u>I. Tiendelige talstelsel</u>**
+bvb. binair - we hebben grondtal 2 en het aantal symbolen ter beschikking is ook 2 namelijk [0,1]
+
+### A. Tiendelige talstelsel
 
 - verzameling: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 - grondtal: 10
 - eg. 1302 = 1000 + 300 + 2
+
+
+de waarde van de cijfers wordt bepaald door hun positie in het getal
+
 
 | **10³** | **10²** | 10  | 10  |
 | ------- | ------- | --- | --- |
@@ -83,13 +66,15 @@ het bestaat uit :
 | 1       | 3       | 0   | 2   |
 | 1000    | 300     | 0   | 2   |
 
-<img src="https://images.slideplayer.com/26/8523914/slides/slide_4.jpg"/>
+<img width="500px" src="https://images.slideplayer.com/26/8523914/slides/slide_4.jpg"/>
 
-**<u>II. binaire talstelsel</u>**
+### B. binaire talstelsel
 
 - verzameling: {0, 1}
 - grondtal: 2
 - eg: 1302 = 1024 + 0 + 256 + 0 + 0 + 0 + 16 + 0 + 4 +2 + 0
+
+<div class="container">
 
 | 2^10 | 2^9 | 2^8 | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 | ---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -97,6 +82,7 @@ het bestaat uit :
 
 toepassing: IpV4 - 32 bit address :
 
+- 4294967296 possible combinations
 - 11000000 10101000 00001010 00000001 - split in 4 groups of 8 bits or 1 byte
 - 192.168.10.1 - in decimal group form
 
@@ -106,7 +92,9 @@ terms :
 - **msb** = bit that represents highest value
 - **lsb** = bit that represents lowest value
 
-<b>afwijkingen tussen decimale veelvouden en binaire veelvouden</b>
+<div class="container">
+
+**afwijkingen tussen decimale veelvouden en binaire veelvouden**
 
 | **[SI-voorvoegsels](http://nl.wikipedia.org/wiki/SI-prefix)** | -              | Binaire voorvoegsels | -             | Afwijking |
 | ------------------------------------------------------------- | -------------- | -------------------- | ------------- | --------- |
@@ -120,9 +108,9 @@ terms :
 | ZB zettabyte                                                  | 1000^7 = 10^21 | ZiB zebibyte         | 1024^7 =2^70  | 18,1%     |
 | YB yottabyte                                                  | 1000^8 = 10^24 | YiB yobibyte         | 1024^8 =2^80  | 20,9%     |
 
-- eg. een hardeschijf van 3.64tb wou eigenlijk 3.64tib moeten zijn wat overeenkomt met een verschil van bijna 10%
+eg. een hardeschijf van 3.64tb wou eigenlijk 3.64tib moeten zijn wat overeenkomt met een verschil van bijna 10%
 
-**<u>III. octale talstelsel</u>**
+### C. octale talstelsel
 
 - verzameling: {0, 1 ,2 ,3 ,4 ,5 ,6 ,7}
 - grondtal: 8
@@ -130,9 +118,16 @@ terms :
 
 toepassing: linux bestandpermissies :
 
-- bit voorstelling: (rwx)\_owner*(rwx)\_group*(rwx)all
-  - read / write / execute
-- (111)owner(101)group(100)all
+
+$$
+\text{bit voorstelling: } (rwx)_{owner}*(rwx)_{group}*(rwx)_{all} \\
+\text{read / write / execute}\\
+\text{in bits: } (111)_{owner}(101)_{group}(100)_{all}
+$$
+
+- bit voorstelling: 
+  - 
+- 
   - owner full access / group no write access / all only read access
 - octaal ==> 754 - filename
 
@@ -140,7 +135,7 @@ toepassing: linux bestandpermissies :
 
 - eg (111010)\_2 = (111 010)\_2 = (72)\_8
 
-**<u>IV. hexadecimale talstelsel</u>**
+### D. hexadecimale talstelsel
 
 - verzameling: {0, 1 ,2 ,3 ,4 ,5 ,6 ,7, 8, 9, A=10, B=11, C=12, D=13, E=14, F=15}
 - grondtal: 16
@@ -160,10 +155,7 @@ toepassing mac :
   - 00:0C:6E:C1:22:4A
   - 000C – 6EC1 – 224A
 
-</details>
-
-<detailss>
-  <summary>Conversie tussen talstelsels</summary>
+## II. Conversie tussen talstelsels
 
 **<u>I. binaire combinaties</u>**
 
