@@ -1,68 +1,43 @@
-<style>
-  summary, h1 {
-    font-size: 25px;
-    font-weight: bold
-  }
-
-  img { 
-    zoom: 0.7;
-    margin: 0 auto
-  }
-
-  u {
-    font-size: 20px
-  }
-
-  .exam-question {
-    color: red;
-    font-weight: bold; 
-  }
-</style>
-
 # hoofdstuk 2 - Logica
 
-<details>
-  <summary>inhoud propositie logica</summary>
-    
-    - taal van prop
-    - proposities
-    - logical operators
-    - truth tables
-    - tautologies and contradictions
-    - logical implications and logical equivalence
-    - substitution laws 
-</details>
+inhoud propositie logica: 
 
-<details>
-  <summary>prop</summary>
-    
-* gedifinieerd als **formele** theorie bestaande uit
-    - **taal** bestaande uit
-        - alfabet = verzameling bevantende alle symbolen geldig binnen de theorie 
-        - syntaxregels = aanwijzingen hoe met het alfabet geldige formules worden gemaakt
-    - **regels** = laten toe formules aan te passen volgens toegestane redeneringsvormen
+- taal van prop
+- proposities
+- logical operators
+- truth tables
+- tautologies and contradictions
+- logical implications and logical equivalence
+- substitution laws
 
-<u>I. alfabet</u>
+## I. prop
+
+**logica** / **formele theorie** bestaat uit
+
+- **taal** 
+    - **alfabet** = verzameling bevantende alle symbolen geldig binnen de theorie 
+    - **syntaxregels** = aanwijzingen hoe met het alfabet geldige formules worden gemaakt
+- **regels** = laten toe formules aan te passen volgens toegestane redeneringsvormen
+
+### A. alfabet
 
 - **propositionele variabelen of propositieletters** : p / q / r / p1 / p2 ... pn
 - **logische of propositionele constante** : T / F
-- **logische operatoren of connectiviteiten** : ¬,∧,∨,→,↔
+- **logische operatoren of connectiviteiten** : ¬ | ∧ | ∨ | → | ↔
 - **hulpsymbolen** : ( en ).
 
-<u>II. syntaxregels</u>
+### B. Syntaxregels
 
 > een geldige formule is een **propositionele vorm**
 
-- een propositieletter is een propositionele vorm
-- een propositionele constante T of F is een propositionele vorm
-- logische operatoren in combinatie met propositieletters wijn propositionele vormen eg. `P ↔ Q`
+- een **propositieletter** is een **propositionele vorm**
+- een **propositionele constante** T of F is een **propositionele vorm**
+- **logische operatoren** in combinatie met propositieletters zijn propositionele vormen eg. `P ↔ Q`
 
-! voorrangsregels - ¬ | | ∧ | ∨ |→ | ↔
+>  voorrangsregels  ¬ |  ∧ | ∨ |→ | ↔
 
-</details>
+## II. proposities
 
-<details>
-  <summary>proposities</summary>
 
 > an expression signifying T or F
 
@@ -73,10 +48,11 @@ Remarks :
   - T is always true
   - F is always false
 
-Characteristics :
+### A. Characteristics 
 
-- **Principal of non contradiction** = a proposition cannot be both true and false and the same time
-- **Principal of excluded thirds** = a proposition can only be true or false
+#### **Principal of non contradiction** = a proposition cannot be both true and false and the same time
+
+#### **Principal of excluded thirds** = a proposition can only be true or false
 
 eg : true propositions
 
@@ -87,7 +63,7 @@ eg : true propositions
 eg : false propositions
 
 - −6 ≤ −567
-- Het getal𝜋is een natuurlijk getal.
+- Het getal 𝜋 is een natuurlijk getal.
 
 eg : non propositions
 
@@ -100,35 +76,34 @@ oef :
 
 1. De verzameling 𝐴 is eindig. = nee kunnen niet zeker waar onwaar verklaren
 2. ’s Avonds als het donker is. = nee
-3. Voor elk koppel(𝑥,𝑦) ∈ ℕ × ℕ geldt:𝑥 > 𝑦of𝑥 ≤ 𝑦. = ja vaststaand waar
+3. Voor elk koppel(𝑥,𝑦) ∈ ℕ × ℕ geldt: 𝑥 > 𝑦 of 𝑥 ≤ 𝑦. = ja vaststaand waar
 4. 1 = 2 ↔ 13 is deelbaar door 4. = ja vasstaand waar
 5. 3𝑥2− 5𝑥 + 1 = 0 = nee uitspraak afhankelijk van x
-</details>
 
-<details>
-  <summary>logical operators</summary>
+## III. logical operators
 
-| symbool | uitspraak          | benaming               |
-| ------- | ------------------ | ---------------------- |
-| ¬       | niet               | negatie of ontkenning  |
-| ∧       | en                 | conjunctie             |
-| ∨       | of                 | disjunctie             |
-| →       | als …dan…          | materiële implicatie   |
-| ↔       | als en slechts als | materiële equivalentie |
 
-</details>
+| symbool | uitspraak                                                    | benaming               |
+| ------- | ------------------------------------------------------------ | ---------------------- |
+| ¬       | niet                                                         | negatie of ontkenning  |
+| ∧       | en                                                           | conjunctie             |
+| ∨       | of                                                           | disjunctie             |
+| →       | als …dan… (**if  p is true then q is also true**)            | materiële implicatie   |
+| ↔       | als en slechts als (**either both statements are true or both are false**.) | materiële equivalentie |
 
-<details>
-  <summary>truth tables</summary>
+## IV. truth tables
 
-implicaties :
 
-| p   | q   | p → q                                                                   |
-| --- | --- | ----------------------------------------------------------------------- |
-| t   | t   | T (als ik pull draag dan heb ik het warm)                               |
-| t   | f   | F (als ik pull draag dan zijn er 40 dagen in maand)                     |
-| f   | t   | T (als er 40 dagen in een maand zijn dan draag een pull)                |
-| f   | f   | T (als er 40 dagen in een maand zijn dan zijn er 35 dagen in een maand) |
+implicaties : (**if  p is true then q is also true**)
+
+| p    | q    | p → q                                                        |
+| ---- | ---- | ------------------------------------------------------------ |
+| t    | t    | T (als ik pull draag dan heb ik het warm)                    |
+| t    | f    | F (als ik pull draag dan zijn er 40 dagen in maand)          |
+| f    | t    | T (als er 40 dagen in een maand zijn dan draag een pull)     |
+| f    | f    | T (als er 40 dagen in een maand zijn dan zijn er 35 dagen in een maand) |
+
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/IMPLY_ANSI.svg/1280px-IMPLY_ANSI.svg.png)
 
 equivalentie :
 
@@ -143,7 +118,7 @@ equivalentie :
 - (2 ∈ {2,4,6,...}) ∨ (1 + 1 = 7) = T
 - (6 < 7) ∧ (8 ∈ {0,1}) = T
 - (1 = 2) → (5 > 100) = T
-- (1 = 2) ↔ (5 > 100) = T (denk aan !!)
+- (1 = 2) ↔ (5 > 100) = 
 - ¬(6 > 45) = T
 - (2 + 2 = 4) ∧ (3 is een priemgetal) = T
 - (4 is een reëel getal) ∨ (3 > 100) = T
@@ -209,17 +184,15 @@ oef : als 𝑝 → 𝑞, ¬𝑝 → 𝑟 en 𝑟 → (𝑝 ∨ 𝑞)alle waar zi
 | f   | f   | t   | F       | F       | T       | F                   | T                             |
 | f   | f   | f   | T       | T       | T       | T                   | T                             |
 
-</details>
+## V. tautologie, contradictie en contingentie
 
-<details>
-  <summary>tautologie, contradictie en contingentie</summary>
 
 - **tautologie**
-  - propositionele vorm met waarheidswarde altijd T ongeacht waarden van propositionele variabelen die erin voorkomen
-  - als P tautologie is dan **P is geldig**
+  - **propositionele vorm** waarbij resultaat altijd T is ongeacht waarden van propositionele variabelen die erin voorkomen
+  - als P tautologie is dan kunnen we zeggen **P is geldig**
 - **contradictie**
-  - propositionele vorm met waarheidswarde altijd F ongeacht waarden van propositionele variabelen die erin voorkomen
-  - als P contradictie is dan **P is ongeldig**
+  - **propositionele vorm** waarbij resultaat altijd F is ongeacht waarden van propositionele variabelen die erin voorkomen
+  - als P contradictie is dan kunnen we zeggen **P is ongeldig**
 - **contingentie**
   - propositionele vorm die noch tautologie noch contradictie is
 
@@ -252,18 +225,18 @@ oef : als 𝑝 → 𝑞, ¬𝑝 → 𝑟 en 𝑟 → (𝑝 ∨ 𝑞)alle waar zi
 | f   | f   | t   | f   | T       | T       | F                    |
 | f   | f   | f   | f   | T       | F       | F                    |
 
-- (p ∧ (r ∨ v)) → ((q ∨ 𝑞) ∧ ¬q) ==> second part always true thus tautologie
+- (p ∧ (r ∨ v)) → ((q ∨ 𝑞) ∧ ¬q) ==> second part always true thus tautologie (propositionele vorm implication could only be possibly be true if second part was false)
 
 <u>**two special propositions**</u>
 
-- **logical consequenceb of**
+- **logical consequence of**
   - proposition q is a logical implication of p if the propositional form p → q is a tautologie
   - p ⇒ q : with ⇒ meaning **logical implication**
 - **logical equivalence of**
   - proposition p is a logical equivalence of q if the propositional form p ↔ q is a tautologie
   - p ⇔ q : with ⇔ meaning **logical equivalence**
 
-1. ((𝑝 ∧ 𝑞) → 𝑟) ⇔ ((𝑝 → 𝑟) ∨ (𝑞 → 𝑟)) : bewijs van logische equivalentie
+1. ((𝑝 ∧ 𝑞) → 𝑟) ⇔ ((𝑝 → 𝑟) ∨ (𝑞 → 𝑟)) : bewijs van logische equivalentie (NOOIT one F and other T)
 
 | p   | q   | r   | (𝑝 ∧ 𝑞) | ((𝑝 ∧ 𝑞) → 𝑟) | (𝑝 → 𝑟) | (𝑞 → 𝑟) | ((𝑝 → 𝑟) ∨ (𝑞 → 𝑟)) |
 | --- | --- | --- | ------- | ------------- | ------- | ------- | ------------------- |
@@ -276,7 +249,7 @@ oef : als 𝑝 → 𝑞, ¬𝑝 → 𝑟 en 𝑟 → (𝑝 ∨ 𝑞)alle waar zi
 | f   | f   | t   | F       | **T**         | T       | T       | **T**               |
 | f   | f   | f   | F       | **T**         | T       | T       | **T**               |
 
-2. ((𝑝 ∨ 𝑞) → 𝑟) ⇒ ((𝑝 ∧ 𝑞) → 𝑟) : bewijs van logische implicatie
+2. ((𝑝 ∨ 𝑞) → 𝑟) ⇒ ((𝑝 ∧ 𝑞) → 𝑟) : bewijs van logische implicatie (NOOIT T -> F)
 
 | p   | q   | r   | ((𝑝 ∨ 𝑞) → 𝑟) | ((𝑝 ∧ 𝑞) → 𝑟) |
 | --- | --- | --- | ------------- | ------------- |
@@ -303,5 +276,3 @@ oef : als 𝑝 → 𝑞, ¬𝑝 → 𝑟 en 𝑟 → (𝑝 ∨ 𝑞)alle waar zi
 10. (𝑝 ∧ ¬𝑝) ⇔ 𝑂
 11. (𝑝 → 𝑝) ⇔ 𝑊
 12. (𝑝 ↔ 𝑝) ⇔ 𝑊
-
-</details>
