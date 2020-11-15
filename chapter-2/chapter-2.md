@@ -1,6 +1,6 @@
 # hoofdstuk 2 - Logica
 
-inhoud propositie logica: 
+inhoud propositie logica:
 
 - taal van prop
 - proposities
@@ -14,9 +14,12 @@ inhoud propositie logica:
 
 **logica** / **formele theorie** bestaat uit
 
-- **taal** 
-    - **alfabet** = verzameling bevantende alle symbolen geldig binnen de theorie 
-    - **syntaxregels** = aanwijzingen hoe met het alfabet geldige formules worden gemaakt
+$$
+$$
+
+- **taal**
+  - **alfabet** = verzameling bevantende alle symbolen geldig binnen de theorie
+  - **syntaxregels** = aanwijzingen hoe met het alfabet geldige formules worden gemaakt
 - **regels** = laten toe formules aan te passen volgens toegestane redeneringsvormen
 
 ### A. alfabet
@@ -34,10 +37,9 @@ inhoud propositie logica:
 - een **propositionele constante** T of F is een **propositionele vorm**
 - **logische operatoren** in combinatie met propositieletters zijn propositionele vormen eg. `P ↔ Q`
 
->  voorrangsregels  ¬ |  ∧ | ∨ |→ | ↔
+> voorrangsregels ¬ | ∧ | ∨ |→ | ↔
 
 ## II. proposities
-
 
 > an expression signifying T or F
 
@@ -48,7 +50,7 @@ Remarks :
   - T is always true
   - F is always false
 
-### A. Characteristics 
+### A. Characteristics
 
 #### **Principal of non contradiction** = a proposition cannot be both true and false and the same time
 
@@ -82,26 +84,24 @@ oef :
 
 ## III. logical operators
 
-
-| symbool | uitspraak                                                    | benaming               |
-| ------- | ------------------------------------------------------------ | ---------------------- |
-| ¬       | niet                                                         | negatie of ontkenning  |
-| ∧       | en                                                           | conjunctie             |
-| ∨       | of                                                           | disjunctie             |
-| →       | als …dan… (**if  p is true then q is also true**)            | materiële implicatie   |
+| symbool | uitspraak                                                                   | benaming               |
+| ------- | --------------------------------------------------------------------------- | ---------------------- |
+| ¬       | niet                                                                        | negatie of ontkenning  |
+| ∧       | en                                                                          | conjunctie             |
+| ∨       | of                                                                          | disjunctie             |
+| →       | als …dan… (**if p is true then q is also true**)                            | materiële implicatie   |
 | ↔       | als en slechts als (**either both statements are true or both are false**.) | materiële equivalentie |
 
 ## IV. truth tables
 
+implicaties : (**if p is true then q is also true**)
 
-implicaties : (**if  p is true then q is also true**)
-
-| p    | q    | p → q                                                        |
-| ---- | ---- | ------------------------------------------------------------ |
-| t    | t    | T (als ik pull draag dan heb ik het warm)                    |
-| t    | f    | F (als ik pull draag dan zijn er 40 dagen in maand)          |
-| f    | t    | T (als er 40 dagen in een maand zijn dan draag een pull)     |
-| f    | f    | T (als er 40 dagen in een maand zijn dan zijn er 35 dagen in een maand) |
+| p   | q   | p → q                                                                   |
+| --- | --- | ----------------------------------------------------------------------- |
+| t   | t   | T (als ik pull draag dan heb ik het warm)                               |
+| t   | f   | F (als ik pull draag dan zijn er 40 dagen in maand)                     |
+| f   | t   | T (als er 40 dagen in een maand zijn dan draag een pull)                |
+| f   | f   | T (als er 40 dagen in een maand zijn dan zijn er 35 dagen in een maand) |
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/IMPLY_ANSI.svg/1280px-IMPLY_ANSI.svg.png)
 
@@ -118,7 +118,7 @@ equivalentie :
 - (2 ∈ {2,4,6,...}) ∨ (1 + 1 = 7) = T
 - (6 < 7) ∧ (8 ∈ {0,1}) = T
 - (1 = 2) → (5 > 100) = T
-- (1 = 2) ↔ (5 > 100) = 
+- (1 = 2) ↔ (5 > 100) =
 - ¬(6 > 45) = T
 - (2 + 2 = 4) ∧ (3 is een priemgetal) = T
 - (4 is een reëel getal) ∨ (3 > 100) = T
@@ -185,7 +185,6 @@ oef : als 𝑝 → 𝑞, ¬𝑝 → 𝑟 en 𝑟 → (𝑝 ∨ 𝑞)alle waar zi
 | f   | f   | f   | T       | T       | T       | T                   | T                             |
 
 ## V. tautologie, contradictie en contingentie
-
 
 - **tautologie**
   - **propositionele vorm** waarbij resultaat altijd T is ongeacht waarden van propositionele variabelen die erin voorkomen
