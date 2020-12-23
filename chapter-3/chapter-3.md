@@ -3,7 +3,6 @@
     font-size: 25px;
     font-weight: bold
   }
-
   img { 
     zoom: 0.7;
     margin: 0 auto
@@ -31,7 +30,7 @@
 
 <details>
   <summary>inhoud logische poorten</summary>
-    
+
     - description
     - characteristics
     - basic ports
@@ -84,6 +83,7 @@ state options :
   - no signal on conductor
   - output is undetermined
 - one buffer coupled
+  
   - signal of that buffer passed to conductor
 - - one buffer coupled with same signal
   * that signal gets passed to the conductor
