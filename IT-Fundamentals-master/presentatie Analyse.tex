@@ -1,0 +1,92 @@
+%slides IT fundamentals-analyse-2020
+\documentclass{beamer}
+
+\usetheme{Darmstadt}
+
+\usepackage[dutch]{babel}
+\usepackage{amssymb,latexsym,amsfonts,graphicx}
+\usepackage{eurosym}
+
+\setlength{\parindent}{0pt}
+%\setlength{\parskip}{0.3cm}
+
+\newtheorem{definitie}{Definitie}[]
+\newtheorem{eigenschap}{Eigenschap}[]
+
+% Officiële accentkleuren
+\definecolor{HOGENT}{RGB}{76,162,213} % Blauwe kleur
+
+
+% Titels
+\setbeamerfont{subtitle}{size=\Large,series=\bfseries,family={\fontfamily{phv}}}
+\setbeamerfont{title}{size=\huge,series=\bfseries,family={\fontfamily{phv}}}
+%\setbeamerfont{frametitle}{series=\bfseries,family={\fontfamily{phv}}}
+
+%% Titels
+\setbeamercolor{structure}{fg=HOGENT}
+\setbeamercolor{title}{fg=HOGENT}
+%\setbeamercolor{frametitle}{fg=HoGentBlue}
+
+%\setbeamercolor*{block body}{use=structure,bg=HoGentFBO,fg=white}
+%\setbeamercolor{part page}{fg=white,bg=HoGentBlue}
+
+% "Navigatiesymbolen" onderaan rechts van de slide weglaten
+\setbeamertemplate{navigation symbols}{}
+
+%%----------------------------------------------------------------------------
+%% Voetlijn: paginanummer, korte titel, HOGENT logo
+\setbeamertemplate{footline}{%
+	\vskip 2pt \hskip 2pt 
+	%    \insertdate % midden
+	\insertframenumber/\inserttotalframenumber \hspace*{4.5cm} % links
+	\hskip
+	1em {IT fundamentals}	%\insertshorttitle % midden
+	\hfill
+	\includegraphics[width=1cm]{figuren/HG-Logo} % rechts
+	\hspace{0.25cm}
+	\vskip 0.25cm
+}
+
+
+%%----------------------------------------------------------------------------
+%% Titeldia
+
+\setbeamertemplate{title page}{%
+	\setbeamercolor*{block body}{use=structure,bg=HOGENT,fg=white}
+	{\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle}
+	
+	\vspace{5mm}
+	
+	{\usebeamerfont{subtitle}\usebeamercolor[fg]{title}\insertauthor}
+}
+
+%%----------------------------------------------------------------------------
+
+
+\title{IT Fundamentals}
+\author{\LARGE Analyse }
+\date{}
+
+\begin{document}
+
+
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+
+\section*{}
+\subsection*{Analyse}
+\begin{frame}
+\frametitle{Inhoud}
+ \tableofcontents[hideallsubsections]
+\end{frame}
+
+\input{analyse-inleiding-pres}
+\input{analyse-begrippen-pres}
+\input{analyse-veeltermfuncties-pres}
+\input{analyse-logEnExp-pres}
+\input{analyse-discreteFuncties-pres}
+
+\end{document}

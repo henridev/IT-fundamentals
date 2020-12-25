@@ -1,0 +1,91 @@
+\section{Bijzondere functies}
+\frame{\tableofcontents[currentsection]}
+
+\subsection{De absolute waarde functie}
+\begin{frame}
+\frametitle{Definitie en eigenschappen}
+\pause
+\begin{definitie}
+De {\bf absolute waarde functie} is de functie met als functievoorschrift
+\[\mbox{abs}:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto \sqrt{x^2}=\left\{\begin{array}{rr} x& ~~~~~~ \mbox{als } x\geq 0\\-x&\mbox{als } x<0 \end{array}\right.\]
+\end{definitie}
+%\end{frame}
+~\\
+%\begin{frame}
+%\frametitle{Eigenschappen}
+\pause
+\begin{eigenschap}
+\begin{itemize}
+\item<+-> $\mbox{dom(abs)}=\mathbb{R}$
+\item<+-> $\mbox{bld(abs)}=\mathbb{R}^{+}$
+\item<+-> de functie abs vertoont een knik in het punt $(0,0)$ (cfr.\ singulier punt)
+\end{itemize}
+\end{eigenschap}
+\end{frame}
+
+\subsection{{\em Floor\/} en {\em Ceiling\/} functie}
+\begin{frame}
+\frametitle{De functie {\em Floor\/}}
+\pause
+\begin{definitie}
+\[\mbox{floor}:\mathbb{R}\rightarrow \mathbb{Z}:x\mapsto \mbox{floor}(x)=z\] 
+$\mbox{ met } z \mbox{ het grootste geheel getal zodat } z\leq x$
+\end{definitie}
+%\end{frame}
+~\\
+%\begin{frame}
+%\frametitle{De functie {\em Floor\/}: eigenschappen}
+\pause
+\begin{eigenschap}
+\pause
+\begin{itemize}
+\item<+-> $\mbox{dom(floor)}=\mathbb{R}$
+\item<+->$\mbox{bld(floor)}=\mathbb{Z}$.
+\end{itemize}
+\end{eigenschap}
+\end{frame}
+
+\begin{frame}
+\frametitle{De functie {\em Ceiling\/}}
+\pause
+\begin{definitie}
+\[\mbox{ceiling}:\mathbb{R}\rightarrow \mathbb{Z}:x\mapsto \mbox{ceiling}(x)=z\]
+$\mbox{ met } z \mbox{ het kleinste geheel getal zodat } z\geq x$
+\end{definitie}
+%\end{frame}
+~\\
+%\begin{frame}
+%\frametitle{De functie {\em Ceiling\/}: eigenschappen}
+\pause
+\begin{eigenschap}
+\begin{itemize}
+\item<+-> dom(ceiling)$=\mathbb{R}$
+\item<+-> bld(ceiling)$=\mathbb{Z}$
+\end{itemize}
+\end{eigenschap}
+\end{frame}
+
+\subsection*{Oefeningen}
+\begin{frame}
+\frametitle{Oefeningen}
+\pause
+\begin{enumerate}
+\item[1]<+-> Stel $f:\mathbb{R}\rightarrow \mathbb{R}: x\mapsto \mbox{abs}(x+1)$.
+      \begin{enumerate}
+      \item[(a)] Geef het domein en beeld van $f$.
+      \item[(b)] Bepaal alle nulpunten van $f$.
+      \item[(c)] Schets de grafiek van $f$.
+      \end{enumerate}
+      ~\\
+      \pause
+\item[2]<+-> Stel 
+\[\begin{array}{l}
+  f:\mathbb{R}\rightarrow \mathbb{R}: x\mapsto \mbox{floor(ceiling}(x-\frac{1}{2}))\\
+  g:\mathbb{R}\rightarrow \mathbb{R}: x\mapsto \mbox{floor(ceiling}(x)-\frac{1}{2})\\ 
+  h:\mathbb{R}\rightarrow \mathbb{R}: x\mapsto \mbox{ceiling(floor}(x+\frac{1}{2})). 
+	\end{array}\]
+ Geef voor elk van de gegeven functies het domein en het beeld. Bepaal voor elke functie de nulpunten.
+ Teken de grafiek van de functies $f$, $g$ en $h$.
+\end{enumerate}
+\end{frame}
+

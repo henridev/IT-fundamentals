@@ -617,3 +617,140 @@ x \cong 6\\
 \space\\
 $$
 
+$$
+\space\\
+\textcolor{green}{\text{ vraag 4 } } \\
+\space\\
+
+
+
+\text{is } \mathbb{Z}_8,+,. \text{ een veld, leg uit waarom?}\\
+\space\\
+
+\text{volgens de stelling dat een eindig veld van orde Q }\\
+\text{bestaat als Q een macht is van een priemgetal bestaat dit veld met 8 elementen}
+$$
+
+
+
+
+$$
+\space\\
+\textcolor{green}{\text{ vraag 5 deel 1} } \\
+\space\\
+
+
+
+\text{vul aan } 129 \space\%\space 29 \cong ...\\
+\space\rightarrow (5*29) = 116
+\space\rightarrow 129 - 116 = 13 \\
+129 \cong 13 \space (\space\%\space 29 )\\
+\space\\
+
+\text{Bepaal de inverse van 3 } \in Z_{29} \\
+b * 3  \space\%\space  29 \cong 1 \\
+10 * 3  \space\%\space  29 \cong 1 \\
+30 \space\%\space  29 \cong 1 \\
+10 \cong 3^{-1} \space\%\space  29 \cong 1 \\
+\space\\
+
+494 * 129 \space\%\space  29 \cong ...\\
+1 * 13 \space\%\space  29 \cong ...\\
+494 * 129 \cong 13 \space\%\space  29 \\
+
+
+\space\\
+\textcolor{green}{\text{ vraag 5 deel 2} } \\
+\space\\
+
+\text{Laat de 26 letters van het alfabet respectievelijk overeen komen met
+de getallen 0 tot en met 25}\\
+\text{leesteken punt :. → 26}\\
+\text{leesteken komma :., → 27}\\
+\text{leesteken uitroepteken :.! → 28}\\
+\text{ontcijfer het bericht in het veld } Z_{29}\\
+[36\space72\space−81\space4\space−132\space19\space28]\\
+\text{7 14 6 4 13 19 28} \\
+\text{H O G E N T !} \\
+$$
+
+$$
+\space\\
+\textcolor{green}{\text{ examenvraag } } \\
+\space\\
+
+
+
+\text{beschouw GF(29) } \mathbb{Z}_{29},+,* \\
+\space\\
+
+
+\text{Het aantal elementen in het veld bedraagt?} \\
+0  \\
+28 \\
+129 \\
+\text {oneindig veel} \\
+\textcolor{green}{\text{antwoord} } \\
+\text {28} \\
+\space\\
+
+31*30-2902\cong... ?\\
+2*1-2902\cong... ?\\
+\space\rightarrow -2902 * (100 * 29) = -2 \\
+2*1-2 \\
+0 \\
+\textcolor{green}{\text{antwoord } } \\
+31*30-2902\cong0 \\
+\space\\
+
+\text{Los illustratief op naar x in  GF(29) } \\
+x-20\cong1 \\
+x+9\cong1 \\
+x\cong1-9 \\
+x\cong-8 \\
+\textcolor{green}{\text{antwoord } } \\
+x\cong21 \\
+\space\\
+
+\text{Los illustratief op naar x in  GF(29) } \\
+x*20\cong1 \\
+20^{-1}*20x\cong20^{-1}*1 \\
+x\cong20^{-1}*1 \\
+\space\rightarrow b * 20 \space\%\space 29 \cong 1 \\
+\space\rightarrow 16 * 20 \space\%\space 29 \cong 1 \\
+\space\rightarrow 320 \space\%\space 29 \cong 1 \\
+\space\rightarrow 20^{-1} = 16 \\
+\textcolor{green}{\text{antwoord } } \\
+x\cong16 \\
+\space\\
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

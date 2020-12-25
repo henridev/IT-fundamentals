@@ -1,0 +1,242 @@
+\section{De exponenti\"ele en logaritmische functie}
+\frame{\tableofcontents[currentsection]}
+
+\subsection{De exponenti\"ele functie}
+\begin{frame}
+\frametitle{De exponenti\"ele functie: defintie} 
+\pause
+\begin{definitie}
+\[f:\mathbb{R} \rightarrow \mathbb{R}:x\mapsto a^x\] 
+is de {\bf exponenti\"ele functie met grondtal $a$} $(a\in \mathbb{R}_0^+\setminus \{1\})$.
+\end{definitie}
+~\\
+\pause
+\begin{itemize}
+\item<+-> Indien $a>1$ is de exponenti\"ele functie strikt stijgend. 
+\item<+-> Indien $a<1$ is de exponenti\"ele functie strikt dalend. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Eigenschappen}
+\pause
+\begin{eigenschap}
+Stel $f$ de exponenti\"ele functie met grondtal $a$ $(a\in\mathbb{R}_0^{+}\setminus \{1\})$ :
+\pause
+\begin{itemize}
+\item<+-> $f(0)=1$ 
+\item<+-> $f(1)=a$ 
+\item<+-> $\mbox{dom}\, f=\mathbb{R}$
+\item<+-> $\mbox{bld}\, f=\mathbb{R}_0^+$
+\item<+-> De functie $f$ is continu in $\mathbb{R}$.
+\item<+-> \pause
+      Voor $a>1$ geldt:\\
+                 de $X$-as is horizontale asymptoot aan de kant van $-\infty$.\\
+          \pause
+      Voor $0<a<1$ geldt:\\
+                de $X$-as is horizontale asymptoot aan de kant van $+\infty$.
+\end{itemize}   
+\end{eigenschap}
+\end{frame}
+
+\begin{frame}  
+\frametitle{De natuurlijke exponenti\"ele functie} 
+\pause
+\begin{definitie}
+De {\bfseries natuurlijke exponenti\"ele functie} met {\bfseries natuurlijk grondtal} e is
+\[\mbox{exp}:\mathbb{R} \rightarrow \mathbb{R}:x\mapsto \mbox{exp}(x)=\mbox{e}^x\]
+met  ($\mbox{e}=2,7182818284\ldots)$. 
+\end{definitie}
+\end{frame}
+
+\subsection{De logaritmische functie}
+\begin{frame}
+\frametitle{De logaritmische functie: definitie} 
+\pause
+%De inverse functie van de exponenti\"ele functie met grondtal $a$ is de {\bf logaritmi\-sche functie met grondtal $a$}.\\~\\
+%\pause
+%Dus voor\\
+%$f:\mathbb{R} \rightarrow \mathbb{R}:x\mapsto y = a^x$\\
+%geldt
+%\pause
+%\[f^{-1}:\mathbb{R} \rightarrow \mathbb{R}:x\mapsto \mbox{log}_a x\]
+%met $y=\mbox{log}_a x \Leftrightarrow x=a^y$\\~\\
+%\pause
+\begin{definitie} 
+De {\bfseries logaritmische functie met grondtal $a$} $(a\in \mathbb{R}_0^+\setminus \{1\})$  is
+\[f:\mathbb{R} \rightarrow \mathbb{R}:x\mapsto f(x)=y=\mbox{log}_a x\]
+met $a^y=x$.
+\end{definitie}
+~\\
+\pause
+\begin{itemize}
+\item<+-> Indien $0<a<1$ dan is $\mbox{log}_a$ strikt dalend. 
+\item<+-> Indien $a>1$ dan is $\mbox{log}_a$ strikt stijgend. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Eigenschappen}
+\pause
+\begin{eigenschap}
+Stel $f$ de logaritmische functie met grondtal $a$ $(a\in\mathbb{R}_0^{+}\setminus \{1\})$:
+ 
+\pause
+\begin{itemize}
+\item<+-> $f(1)=0$ 
+\item<+-> $f(a)=1$ 
+\item<+-> $\mbox{dom}\, f=\mathbb{R}^+_0$
+\item<+-> $\mbox{bld}\, f=\mathbb{R}$
+\item<+-> De functie $f$ is continu in $\mathbb{R}^+_0$
+\item<+-> De $Y$-as is verticale asymptoot
+\end{itemize}  
+\end{eigenschap} 
+\end{frame}
+
+\begin{frame}  
+\frametitle{Bijzondere logaritmen} 
+\pause
+\begin{definitie}~
+\begin{itemize}
+\item<+-> De {\bfseries Briggse logaritmische functie} is de logaritmische functie met grondtal 10
+\[\mbox{log}:\mathbb{R}^+_0 \rightarrow \mathbb{R}: x \mapsto y=\mbox{log}\, x.\]
+\item<+-> De {\bfseries Neperiaanse of natuur\-lijke logaritmische} functie is de logaritmische functie met grondtal $e$
+\[\mbox{ln}:\mathbb{R}^+_0 \rightarrow \mathbb{R}: x \mapsto y=\mbox{ln}\, x.\]
+\item<+-> De logaritmische functie met grondtal $2$ wordt genoteerd als $\mbox{lg}\, x$. 
+\[\mbox{lg}:\mathbb{R}^+_0 \rightarrow \mathbb{R}: x \mapsto y=\mbox{lg}\, x.\]
+\end{itemize}
+\end{definitie}
+\end{frame}
+
+\begin{frame}
+\frametitle{Voorbeelden}
+\pause 
+\begin{itemize}
+\item<+-> $\mbox{log}_2 16 = \ldots $\\~
+\item<+-> $\mbox{log}_3 27 = \ldots $\\~
+\item<+-> $\mbox{ln}\, e = \ldots$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels} 
+\pause
+\begin{eigenschap}
+Stel $a,b \in \mathbb{R}_0^+\setminus\{1\}$.\\~\\
+\pause 
+\[\begin{array}{rcl}
+  \mbox{log}_a(x.y) & = & \mbox{log}_a x + \mbox{log}_a y \\~\\\pause
+  \mbox{log}_a\displaystyle \frac{x}{y} & = & \mbox{log}_a x - \mbox{log}_a y \\~\\\pause
+  \mbox{log}_a(x^p) & = & p.\mbox{log}_a x  ~~~(\mbox{met } p \in \mathbb{Q})\\ ~\\\pause
+  \mbox{log}_a a & = & 1 \\~\\ \pause
+  \mbox{log}_a x & = & \frac{\mbox{log}_b x}{\mbox{log}_b a}
+  \end{array}\]
+\end{eigenschap}~\\
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels: voorbeelden}
+\pause
+\begin{itemize}
+\item<+-> $\mbox{log} 25 + \mbox{log} 4 = \ldots$\\~
+\item<+-> $\mbox{ln} 2\mbox{e}^3 - \mbox{ln} 2 = \ldots$\\~
+\item<+-> $4.\mbox{log}_9 3 = \ldots$\\~
+\item<+-> $\displaystyle \mbox{lg} 12 = \ldots$
+\end{itemize} 
+\end{frame}
+
+\subsection*{Oefeningen}
+
+\begin{frame}
+\frametitle{Oefeningen}
+\pause
+\begin{enumerate}
+\item<+-> Bepaal het domein en beeld van $f$. Geef de nulpunten, het snijpunt met de $Y$-as en eventuele asymptoten van $f$. Teken ten slotte de grafiek van $f$. 
+      \begin{enumerate}
+      \item<+->[(a)] $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto y=\mbox{log}_3\, x$
+      \item<+->[(b)] $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto y=2+3^x$
+      \item<+->[(c)] $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto y=-2\mbox{log}_3\, x$
+      \end{enumerate}~\\
+\item<+-> Stel 
+      \[\begin{array}{c}
+        f:\mathbb{R}\rightarrow \mathbb{R}: x\mapsto \mbox{ln(exp}(x))\\
+        g:\mathbb{R}\rightarrow \mathbb{R}: x\mapsto \mbox{exp(ln}(x)).
+        \end{array}\]
+      Wat is het verschil tussen de functie $f$ en de functie $g$?\\
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+%\frametitle{Oefeningen}
+\pause
+\small{
+\begin{enumerate}
+\item<+->[3]
+Je speelt het spel Angry Birds. Je moet door boze vogels te lanceren zoveel mogelijk groene varkens raken. Je krijgt hiervoor drie pogingen. Er bevinden zich groene varkens op de punten: $(1,4)$, $(2,4)$, $(2,5)$, $(3,1)$, $(3,3)$, $(3,4)$, $(3,5)$, $(4,2)$, $(4,4)$. \\
+Je mag drie vogels lanceren: een bruine, rode en blauwe vogel. 
+\begin{itemize}
+\item De bruine vogel start in het punt met co\"ordinaten $(1,3)$ en vliegt volgens de grafiek van de functie $f$ met $f(x)= 2^x+1$.
+\item De rode vogel start in het punt met co\"ordinaten $(2,0)$ en vliegt volgens de grafiek van de functie $g$ met $g(x)=\lg (x-1)$.
+\item De blauwe vogel start in het punt met co\"ordinaten $(2,3)$ en vliegt volgens de grafiek van de functie $h$ met $h(x)=-x^2+6x-5$.
+\end{itemize}
+
+Beantwoord de volgende vragen:
+\begin{enumerate}
+\item[a)] Maak een tekening van de gegeven situatie. Duid eveneens de vlucht van elke vogel op jouw tekening aan. 
+%\item[b)] Raakt elke vogel een varken? Zo ja, welk varken wordt er geraakt door welke vogel? \\
+%Motiveer jouw antwoord a.d.h.v.\ een analytische berekening. Verifieer vervolgens of jouw berekeningen %overeenstemmen met jouw tekening.
+%\item[c)] De varkens met co\"ordinaten $(2,4)$ en $(4,2)$ zijn nog niet geraakt. Je krijgt twee extra vogels om specifiek deze varkens uit te schakelen. Beide vogels vertrekken van het punt met co\"ordinaten $(1,2)$. Ze vliegen allebei volgens een rechte lijn. \\
+%Geef voor beide vogels de vergelijking van de functie die hun vlucht volgt.
+\end{enumerate}
+\end{enumerate}}
+\end{frame}
+
+\begin{frame}
+%\frametitle{Oefeningen}
+%\pause
+\small{
+\begin{enumerate}
+\item<+->[3]
+Je speelt het spel Angry Birds. Je moet door boze vogels te lanceren zoveel mogelijk groene varkens raken. Je krijgt hiervoor drie pogingen. Er bevinden zich groene varkens op de punten: $(1,4)$, $(2,4)$, $(2,5)$, $(3,1)$, $(3,3)$, $(3,4)$, $(3,5)$, $(4,2)$, $(4,4)$. \\
+Je mag drie vogels lanceren: een bruine, rode en blauwe vogel. 
+\begin{itemize}
+\item De bruine vogel start in het punt met co\"ordinaten $(1,3)$ en vliegt volgens de grafiek van de functie $f$ met $f(x)= 2^x+1$.
+\item De rode vogel start in het punt met co\"ordinaten $(2,0)$ en vliegt volgens de grafiek van de functie $g$ met $g(x)=\lg (x-1)$.
+\item De blauwe vogel start in het punt met co\"ordinaten $(2,3)$ en vliegt volgens de grafiek van de functie $h$ met $h(x)=-x^2+6x-5$.
+\end{itemize}
+
+Beantwoord de volgende vragen:
+\begin{enumerate}
+%\item[a)] Maak een tekening van de gegeven situatie. Duid eveneens de vlucht van elke vogel op jouw tekening aan. 
+\item[b)] Raakt elke vogel een varken? Zo ja, welk varken wordt er geraakt door welke vogel? \\
+Motiveer jouw antwoord a.d.h.v.\ een analytische berekening. Verifieer vervolgens of jouw berekeningen overeenstemmen met jouw tekening.
+%\item[c)] De varkens met co\"ordinaten $(2,4)$ en $(4,2)$ zijn nog niet geraakt. Je krijgt twee extra vogels om specifiek deze varkens uit te schakelen. Beide vogels vertrekken van het punt met co\"ordinaten $(1,2)$. Ze vliegen allebei volgens een rechte lijn. \\
+%Geef voor beide vogels de vergelijking van de functie die hun vlucht volgt.
+\end{enumerate}
+\end{enumerate}}
+\end{frame}
+
+\begin{frame}
+%\frametitle{Oefeningen}
+%\pause
+\small{
+\begin{enumerate}
+\item<+->[3]
+Je speelt het spel Angry Birds. Je moet door boze vogels te lanceren zoveel mogelijk groene varkens raken. Je krijgt hiervoor drie pogingen. Er bevinden zich groene varkens op de punten: $(1,4)$, $(2,4)$, $(2,5)$, $(3,1)$, $(3,3)$, $(3,4)$, $(3,5)$, $(4,2)$, $(4,4)$. \\
+Je mag drie vogels lanceren: een bruine, rode en blauwe vogel. 
+\begin{itemize}
+\item De bruine vogel start in het punt met co\"ordinaten $(1,3)$ en vliegt volgens de grafiek van de functie $f$ met $f(x)= 2^x+1$.
+\item De rode vogel start in het punt met co\"ordinaten $(2,0)$ en vliegt volgens de grafiek van de functie $g$ met $g(x)=\lg (x-1)$.
+\item De blauwe vogel start in het punt met co\"ordinaten $(2,3)$ en vliegt volgens de grafiek van de functie $h$ met $h(x)=-x^2+6x-5$.
+\end{itemize}
+
+Beantwoord de volgende vragen:
+\begin{enumerate}
+%\item[a)] Maak een tekening van de gegeven situatie. Duid eveneens de vlucht van elke vogel op jouw tekening aan. 
+%\item[b)] Raakt elke vogel een varken? Zo ja, welk varken wordt er geraakt door welke vogel? \\
+%Motiveer jouw antwoord a.d.h.v.\ een analytische berekening. Verifieer vervolgens of jouw berekeningen overeenstemmen met jouw tekening.
+\item[c)] De varkens met co\"ordinaten $(2,4)$ en $(4,2)$ zijn nog niet geraakt. Je krijgt twee extra vogels om specifiek deze varkens uit te schakelen. Beide vogels vertrekken van het punt met co\"ordinaten $(1,2)$. Ze vliegen allebei volgens een rechte lijn. \\
+Geef voor beide vogels de vergelijking van de functie die hun vlucht volgt.
+\end{enumerate}
+\end{enumerate}}
+\end{frame}

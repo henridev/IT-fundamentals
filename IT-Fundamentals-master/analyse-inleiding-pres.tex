@@ -1,0 +1,199 @@
+\section{Inleiding}
+\frame{\tableofcontents[currentsection]}
+
+\subsection{Het veld $\mathbb{R},+,.$}
+\begin{frame}
+\frametitle{Eigenschappen in $\mathbb{R},+,.$}
+\pause
+\begin{eigenschap}
+Stel $x,y,z\in \mathbb{R}$
+\pause
+\begin{itemize}
+\item<+-> $\mathbb{R}$ is gesloten voor $+$ en $\cdot$: $x+y \in \mathbb{R}$ en $x\cdot  y \in \mathbb{R}$.
+\item<+-> commutatief: $x+y=y+x$ en $x\cdot  y=y \cdot  x$.
+\item<+-> associatief: $(x+y)+z=x+(y+z)$ en $(x\cdot  y)\cdot z = x\cdot  (y\cdot z)$.
+\item<+-> distributief: $x\cdot (y+z)=x\cdot  y+x\cdot z$.
+\item<+-> neutraal element: $x+0=x$ en $x\cdot  1=x$.
+\item<+-> invers element voor +: er bestaat een element $-x\in \mathbb{R}$ zodat $x+(-x)=0$.
+\item<+-> invers element voor $\cdot$: voor elke $x\in \mathbb{R}_{0}$ bestaat er een element $x^{-1}$ zodat $x\cdot  x^{-1}=1$.
+\end{itemize}
+\pause
+Besluit: $\mathbb{R},+,\cdot $ is een veld.
+\end{eigenschap}
+\end{frame}
+
+\subsection{Machten}
+\begin{frame}
+\frametitle{Definitie van een macht}
+\pause
+\begin{definitie}
+Stel $a \in \mathbb{R}_0^+ \setminus \{1\}$
+\begin{itemize}
+\item<+-> dan geldt voor alle $n \in \mathbb{N}_0$
+      \pause
+      \[\begin{array}{rcl}
+        a^n & = & a\cdot a\cdot a \cdots a ~~~(n\geq 2) \\ \pause
+        a^1 & = & a \\ \pause
+        a^0 & = & 1 \\ \pause
+        a^{-n} & = & \frac{1}{a^n} \\ \pause
+        a^{-1} & = & \frac{1}{a} \pause
+        \end{array}\]
+\item<+-> dan geldt voor alle $p,q \in \mathbb{N}$ \pause
+      \[\begin{array}{rcl}
+        a^{\frac{p}{q}} & = & \sqrt[q]{a^p} ~~~(q\geq 2)\\ \pause
+        a^{-\frac{p}{q}} & = & \frac{1}{a^{\frac{p}{q}}} ~~~(q\geq 2)
+        \end{array}\]
+\end{itemize}
+\end{definitie}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels}
+\pause
+\begin{eigenschap}
+Stel $a,b \in \mathbb{R}_0^+\setminus\{1\}$. \\
+Voor alle $r,s \in \mathbb{Q}$ geldt 
+\pause
+\[\begin{array}{rcl}
+  a^r\cdot a^s & = & a^{r+s} \\~\\  \pause
+  \displaystyle \frac{a^r}{a^s} & = & a^{r-s} \\~\\ \pause
+  (a^r)^s & = & a^{rs} \\~\\ \pause
+  a^r\cdot b^r & = & (a\cdot b)^r \\~\\ \pause
+  \displaystyle\frac{a^r}{b^r} & = & \displaystyle(\frac{a}{b})^r
+  \end{array}\]
+\end{eigenschap}
+\end{frame}
+
+\subsection{Logaritmen}
+\begin{frame}
+\frametitle{Definitie van een logaritme}
+\pause
+\begin{definitie}
+
+\end{definitie}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels}
+\pause
+\begin{eigenschap}
+
+\end{eigenschap}
+\end{frame}
+
+\subsection{Intervallen in $\mathbb{R}$}
+\begin{frame}
+\frametitle{Notaties}
+\pause
+\begin{itemize}
+\item<+-> Open interval:
+      \[ ]a,b[=\{x\in \mathbb{R} | a<x<b\} \subseteq \mathbb{R} \]
+\item<+-> Gesloten interval:
+      \[ [a,b]=\{x\in \mathbb{R} | a\leq x \leq b\} \subseteq \mathbb{R} \]
+\item<+-> Halfopen interval:
+      \[ \begin{array}{l}
+         [a,b[=\{x\in \mathbb{R} | a \leq x<b\} \subseteq \mathbb{R} \\
+         ]a,b]=\{x\in \mathbb{R} | a < x \leq b\} \subseteq \mathbb{R} 
+         \end{array}\]
+\item<+-> De verzameling van de re\"ele getallen ($\mathbb{R}$):
+      \[ \mathbb{R} = ]-\infty,+\infty[ \]
+\end{itemize}
+\end{frame}
+
+
+\subsection{Het begrip oneindig in de wiskunde}
+\begin{frame}
+\frametitle{De uitgebreide re\"ele rechte}
+\pause
+\begin{definitie}
+De {\bf uitgebreide re\"ele rechte} $\overline{\mathbb{R}}$ is:\\~\\
+\[ \overline{\mathbb{R}} = \mathbb{R} \cup  \{-\infty,+\infty\} = [-\infty,+\infty] \]~\\
+met $-\infty < x < +\infty$ voor elke $x \in \mathbb{R}$.
+\end{definitie}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels voor `+' en `-' in $\overline{\mathbb{R}}$}
+\pause
+\begin{eigenschap}
+Voor elke $x \in \mathbb{R}$ geldt \pause
+\[\begin{array}{rcl}
+  +\infty + x & = & +\infty\\ \pause
+  -\infty + x & = & -\infty\\ \pause
+  +\infty + (+\infty) & = & +\infty\\ \pause
+  -\infty + (-\infty) & = & -\infty \pause
+  \end{array} \]
+\end{eigenschap}
+~\\
+\pause
+Let op! De volgende bewerkingen zijn niet gedefinieerd
+\pause
+\[\begin{array}{c}
+  +\infty + (-\infty) \\ \pause
+  -\infty + (+\infty) 
+  \end{array} \]
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels voor `$\times$' en `$/$' in $\overline{\mathbb{R}}$}
+\pause
+\begin{eigenschap}
+Voor elke $x \in \mathbb{R}_0^+$ geldt \pause
+\[\begin{array}{rcl}
+  +\infty \cdot  x & = & +\infty\\ \pause
+  -\infty \cdot  x & = & -\infty\\ \pause
+  +\infty / x & = & +\infty\\ \pause
+  -\infty / x & = & -\infty   \pause
+  \end{array} \]
+\end{eigenschap}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels voor `$\times$' en `$/$' in $\overline{\mathbb{R}}$}
+\begin{eigenschap}
+Voor elke $x \in \mathbb{R}_0^-$ geldt \pause
+\[\begin{array}{rcl}
+  +\infty \cdot  x & = & -\infty\\ \pause
+  -\infty \cdot  x & = & +\infty\\ \pause
+  +\infty / x & = & -\infty\\ \pause
+  -\infty / x & = & +\infty  \pause
+  \end{array} \] 
+\end{eigenschap}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels voor `$\times$' en `$/$' in $\overline{\mathbb{R}}$}
+\begin{eigenschap}
+Voor elke $x \in \mathbb{R}$ geldt \pause
+\[\begin{array}{rcl}
+  x/+\infty  & = & 0\\ \pause
+  x/-\infty  & = & 0   
+  \end{array} \]  
+ \end{eigenschap}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rekenregels voor `$\times$' en `$/$' in $\overline{\mathbb{R}}$}
+\begin{eigenschap}
+Er geldt \pause
+\[\begin{array}{rcl}
+  +\infty \cdot  (+\infty) & = & +\infty\\ \pause
+  -\infty \cdot  (-\infty) & = & +\infty\\ \pause
+  +\infty \cdot  (-\infty) & = & -\infty\\ \pause
+  -\infty \cdot  (+\infty) & = & -\infty  \pause
+  \end{array} \]
+\end{eigenschap}
+ \pause
+Let op! De volgende bewerkingen zijn niet gedefinieerd
+\pause
+\[\begin{array}{l}
+  0\cdot  (+\infty)\\ \pause
+  0\cdot  (-\infty)\\  \pause
+  \infty / \infty \\ \pause
+  0 / 0 \\  \pause
+  0^0\\ \pause
+  \infty^0  
+  \end{array} \]
+ \end{frame}
+ 
+ 
