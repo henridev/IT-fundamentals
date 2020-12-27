@@ -1,6 +1,4 @@
-## 	opfrisser wiskunde 
-
-- getallenverzamelingen 
+## 	opfrisser wiskunde  
 
 <img src="https://1.bp.blogspot.com/-qbvhLl9GMGs/WhLLFEnhwHI/AAAAAAAAJ9U/L2czeeXoGec80y9vM89nIk0GRvg0bgfeQCLcBGAs/s1600/Types%2Bof%2Bnumber.jpg" style="margin:0 auto; zoom: 0.6; object-position: 10px -50px; object-fit: cover;   width: 700px; height: 500px;"/>
 $$
@@ -173,9 +171,9 @@ Math
 
 ​				
 ​				
-					$$
-				xxxxxxxxxx A \Rightarrow B = \text{A is sufficient for B and B is necessary for A} \\A \Leftarrow B = \text{A is necassary for B and B is sufficient for A} \\A \Leftrightarrow B = \text{A is both necessary and sufficient for B}
-				$$
+​					$$
+​				xxxxxxxxxx A \Rightarrow B = \text{A is sufficient for B and B is necessary for A} \\A \Leftarrow B = \text{A is necassary for B and B is sufficient for A} \\A \Leftrightarrow B = \text{A is both necessary and sufficient for B}
+​				$$
 ### indirect proof
 
 
