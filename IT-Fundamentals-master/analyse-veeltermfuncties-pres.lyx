@@ -1,9 +1,9 @@
-#LyX file created by tex2lyx 2.3
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
 \lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /home/henri/Documents/ho-gent/IT-fundamentals/IT-Fundamentals-master/
+\origin unavailable
 \textclass article
 \use_default_options false
 \maintain_unincluded_children false
@@ -82,11 +82,11 @@ Veeltermfuncties
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 frame{
@@ -105,6 +105,7 @@ LatexCommand tableofcontents
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -118,11 +119,11 @@ Definitie en notatie
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -136,6 +137,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -147,6 +149,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -157,6 +160,7 @@ Een veeltermfunctie
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -167,6 +171,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -180,6 +185,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 begin{definitie}
 \end_layout
@@ -191,15 +197,19 @@ begin{definitie}
 veeltermfunctie
 \series default
  is een reële functie met als functievoorschrift 
-\begin_inset Formula \[f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto f(x) = a_n x^n+a_{n-1}x^{n-1}+ \cdots + a_1 x + a_0,\]
+\begin_inset Formula 
+\[
+f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots+a_{1}x+a_{0},
+\]
+
 \end_inset
 
 met 
-\begin_inset Formula $n\in \mathbb{N}$
+\begin_inset Formula $n\in\mathbb{N}$
 \end_inset
 
  en 
-\begin_inset Formula $a_i \in \mathbb{R}$
+\begin_inset Formula $a_{i}\in\mathbb{R}$
 \end_inset
 
  (
@@ -207,10 +217,20 @@ met
 \end_inset
 
 ), 
-\begin_inset Formula $a_n\neq 0$
+\begin_inset Formula $a_{n}\neq0$
 \end_inset
 
 .
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -227,18 +247,30 @@ graad
 \end_inset
 
  en 
-\begin_inset Formula $a_nx^n$
+\begin_inset Formula $a_{n}x^{n}$
 \end_inset
 
  de 
 \series bold
-hoogste graadsterm
+ho
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ogste graadsterm
 \series default
-. 
+.
+ 
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{definitie}
@@ -251,6 +283,7 @@ end{definitie}
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -266,11 +299,11 @@ Constante functies
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -284,6 +317,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -295,6 +329,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -305,6 +340,7 @@ Een constante functie
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -315,6 +351,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -328,6 +365,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 begin{definitie}
 \end_layout
@@ -338,8 +376,13 @@ begin{definitie}
 \series bold
 constante functie
 \series default
- is een functie waarbij de functiewaarde constant is. 
-\begin_inset Formula \[ f:\mathbb{R} \rightarrow \mathbb{R} :x\mapsto f(x)=a ~~~~~~ (a \in \mathbb{R})\]
+ is een functie waarbij de functiewaarde constant is.
+ 
+\begin_inset Formula 
+\[
+f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto f(x)=a~~~~~~(a\in\mathbb{R})
+\]
+
 \end_inset
 
 
@@ -347,6 +390,7 @@ constante functie
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{definitie}
@@ -360,6 +404,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 end{frame}
 \end_layout
@@ -370,11 +415,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -388,6 +433,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -399,6 +445,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -409,17 +456,18 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
 \end_inset
 
  De grafiek van 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto a$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto a$
 \end_inset
 
  
-\begin_inset Formula $(a \in \mathbb{R})$
+\begin_inset Formula $(a\in\mathbb{R})$
 \end_inset
 
  is 
@@ -429,11 +477,9 @@ wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-\begin_inset Graphics 
+\begin_inset Graphics
 	filename figuren/constantefnct.jpg
 	width 2.7in
 
@@ -444,6 +490,7 @@ status open
 status collapsed
 
 \begin_layout Plain Layout
+
 %
 \backslash
 caption{De grafiek van de constante functie $y=a$.}
@@ -466,11 +513,11 @@ label{constantefnct}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -482,11 +529,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -500,6 +547,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -511,6 +559,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -521,6 +570,7 @@ Eigenschappen
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -531,6 +581,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -544,6 +595,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 begin{eigenschap}
 \end_layout
@@ -551,11 +603,11 @@ begin{eigenschap}
 \end_inset
 
  Voor 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto a$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto a$
 \end_inset
 
  
-\begin_inset Formula $(a \in \mathbb{R})$
+\begin_inset Formula $(a\in\mathbb{R})$
 \end_inset
 
  geldt 
@@ -566,7 +618,8 @@ dom
 \begin_inset Formula $(f)=\mathbb{R}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -574,11 +627,11 @@ bld
 \begin_inset Formula $(f)=\{a\}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
-
 \begin_inset Formula $f$
 \end_inset
 
@@ -586,7 +639,8 @@ bld
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -596,7 +650,7 @@ De nulpunten zijn:
 \begin_deeper
 \begin_layout Itemize
 als 
-\begin_inset Formula $a\neq 0$
+\begin_inset Formula $a\neq0$
 \end_inset
 
  dan zijn er geen nulpunten; 
@@ -608,14 +662,15 @@ als
 \end_inset
 
  dan is elke 
-\begin_inset Formula $x\in \mathbb{R}$
+\begin_inset Formula $x\in\mathbb{R}$
 \end_inset
 
  een nulpunt van 
 \begin_inset Formula $f$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \end_deeper
@@ -628,15 +683,16 @@ Het snijpunt met de
 \begin_inset Formula $(0,a)$
 \end_inset
 
- . 
+ .
+ 
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{eigenschap}
@@ -650,6 +706,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 end{frame}
 \end_layout
@@ -660,11 +717,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -678,6 +735,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -689,6 +747,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -699,6 +758,7 @@ Tekenverloop
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -710,6 +770,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 pause
 \end_layout
@@ -717,11 +778,11 @@ pause
 \end_inset
 
  Voor 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto a$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto a$
 \end_inset
 
  
-\begin_inset Formula $(a \in \mathbb{R})$
+\begin_inset Formula $(a\in\mathbb{R})$
 \end_inset
 
  geldt 
@@ -730,7 +791,6 @@ pause
 
 
 \begin_inset space ~
-
 \end_inset
 
 
@@ -738,13 +798,14 @@ pause
 \end_inset
 
  
-\begin_inset Formula \[\begin{array}{|c|lcr|}
-  \hline
-  x&-\infty ~~~~~ & ~~~ & +\infty\\
-  \hline
-  f(x)& & \mbox{teken van }a &\\
-  \hline
-  \end{array}\]
+\begin_inset Formula 
+\[
+\begin{array}{|c|lcr|}
+\hline x & -\infty~~~~~ & ~~~ & +\infty\\
+\hline f(x) &  & \mbox{teken van }a & 
+\\\hline \end{array}
+\]
+
 \end_inset
 
 
@@ -752,6 +813,7 @@ pause
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -763,11 +825,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -781,6 +843,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -792,6 +855,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -802,6 +866,7 @@ Oefening
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -815,7 +880,8 @@ status collapsed
 \begin_inset Formula $(2,-3)$
 \end_inset
 
-. Bepaal deze functie 
+.
+ Bepaal deze functie 
 \begin_inset Formula $f$
 \end_inset
 
@@ -828,6 +894,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -843,11 +910,11 @@ Lineaire functies
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -861,6 +928,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -872,6 +940,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -882,6 +951,7 @@ Een functie van de eerste graad
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -892,6 +962,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -905,6 +976,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 begin{definitie}
 \end_layout
@@ -912,7 +984,7 @@ begin{definitie}
 \end_inset
 
  De functie 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto ax+b$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto ax+b$
 \end_inset
 
  waarbij 
@@ -924,7 +996,7 @@ begin{definitie}
 \end_inset
 
  gegeven reële getallen zijn en 
-\begin_inset Formula $a\neq 0$
+\begin_inset Formula $a\neq0$
 \end_inset
 
 , noemt men een 
@@ -935,11 +1007,13 @@ functie van de eerste graad
 \series bold
 lineaire functie
 \series default
-. 
+.
+ 
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{definitie}
@@ -953,6 +1027,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 end{frame}
 \end_layout
@@ -963,11 +1038,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -981,6 +1056,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -992,6 +1068,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1002,6 +1079,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -1016,18 +1094,17 @@ king
 \begin_inset Formula $y=ax+b$
 \end_inset
 
-. 
+.
+ 
 \begin_inset Float figure
 placement htb
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-\begin_inset Graphics 
+\begin_inset Graphics
 	filename figuren/rechte.jpg
 	width 5in
 
@@ -1042,11 +1119,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 %Het snijpunt met de $X$-as noemen we het {
 \backslash
 bfseries nulpunt} van de functie en is de oplos
@@ -1060,11 +1137,11 @@ bfseries nulpunt} van de functie en is de oplos
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 %De co
 \backslash
 "effici
@@ -1094,6 +1171,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 end{frame}
 \end_layout
@@ -1104,11 +1182,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -1122,6 +1200,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -1133,6 +1212,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1143,6 +1223,7 @@ Eigenschappen
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -1153,6 +1234,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -1166,6 +1248,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 begin{eigenschap}
 \end_layout
@@ -1173,11 +1256,11 @@ begin{eigenschap}
 \end_inset
 
  Voor 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto ax+b$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto ax+b$
 \end_inset
 
  
-\begin_inset Formula $(a \in \mathbb{R}_0, b\in \mathbb{R})$
+\begin_inset Formula $(a\in\mathbb{R}_{0},b\in\mathbb{R})$
 \end_inset
 
  geldt 
@@ -1188,7 +1271,8 @@ dom
 \begin_inset Formula $(f)=\mathbb{R}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -1196,11 +1280,11 @@ bld
 \begin_inset Formula $(f)=\mathbb{R}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
-
 \begin_inset Formula $f$
 \end_inset
 
@@ -1208,7 +1292,8 @@ bld
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -1216,7 +1301,8 @@ Het nulpunt is:
 \begin_inset Formula $x={\displaystyle -\frac{b}{a}}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -1228,15 +1314,16 @@ Het snijpunt met de
 \begin_inset Formula $(0,b)$
 \end_inset
 
- . 
+ .
+ 
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{eigenschap}
@@ -1250,6 +1337,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 end{frame}
 \end_layout
@@ -1260,11 +1348,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -1278,6 +1366,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -1289,6 +1378,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1299,6 +1389,7 @@ Tekenverloop
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -1310,6 +1401,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 pause
 \end_layout
@@ -1317,26 +1409,23 @@ pause
 \end_inset
 
  Voor 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto ax+b$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto ax+b$
 \end_inset
 
  
 \begin_inset space ~
-
 \end_inset
 
 
 \begin_inset space ~
-
 \end_inset
 
 
 \begin_inset space ~
-
 \end_inset
 
 
-\begin_inset Formula $(a \in \mathbb{R}_0, b\in \mathbb{R})$
+\begin_inset Formula $(a\in\mathbb{R}_{0},b\in\mathbb{R})$
 \end_inset
 
  geldt 
@@ -1345,7 +1434,6 @@ pause
 
 
 \begin_inset space ~
-
 \end_inset
 
 
@@ -1353,15 +1441,16 @@ pause
 \end_inset
 
  
-\begin_inset Formula \[\begin{array}{|c|ccccc|}
-  \hline
-  x &-\infty& &~~~~~\displaystyle -\frac{b}{a}~~~~~ & &+\infty\\
-  \hline
-      & &                & &                &\\  
-  f(x)& &\mbox{teken van}&0&\mbox{teken van}&\\
-      & & -a             & & a &\\
-  \hline
-  \end{array}\]
+\begin_inset Formula 
+\[
+\begin{array}{|c|ccccc|}
+\hline x & -\infty &  & ~~~~~{\displaystyle -\frac{b}{a}~~~~~} &  & +\infty\\
+\hline  &  &  &  &  & \\
+f(x) &  & \mbox{teken van} & 0 & \mbox{teken van} & \\
+ &  & -a &  & a & 
+\\\hline \end{array}
+\]
+
 \end_inset
 
 
@@ -1369,6 +1458,7 @@ pause
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -1380,11 +1470,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -1398,6 +1488,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -1409,6 +1500,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1419,6 +1511,7 @@ Oefeningen
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -1430,6 +1523,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 pause
 \end_layout
@@ -1440,28 +1534,26 @@ pause
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 1
 \end_layout
 
 \end_inset
 
-<+-> Onderzoek het verloop van de volgende functies van de eerste graad. Teken de grafiek van de functie. 
+<+-> Onderzoek het verloop van de volgende functies van de eerste graad.
+ Teken de grafiek van de functie.
+ 
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (a)
 \end_layout
 
@@ -1471,34 +1563,30 @@ status collapsed
 \begin_inset Formula $f:x\mapsto x-3$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (b)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $g:x\mapsto -\frac{3}{5}x+7$
+\begin_inset Formula $g:x\mapsto-\frac{3}{5}x+7$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
-\end_deeper
-\begin_deeper
 \begin_layout Standard
-
 \begin_inset space ~
-
 \end_inset
 
 
@@ -1510,12 +1598,10 @@ status collapsed
 
 \end_deeper
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 2
 \end_layout
 
@@ -1526,58 +1612,54 @@ status collapsed
 
 \begin_deeper
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (a)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $f:x\mapsto -3x-2$
+\begin_inset Formula $f:x\mapsto-3x-2$
 \end_inset
 
  en 
-\begin_inset Formula $g:x\mapsto 5x+6$
+\begin_inset Formula $g:x\mapsto5x+6$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (b)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $f:x\mapsto -\frac{2}{3}x+\frac{1}{2}$
+\begin_inset Formula $f:x\mapsto-\frac{2}{3}x+\frac{1}{2}$
 \end_inset
 
  en 
-\begin_inset Formula $g:x\mapsto \frac{7}{6}x-\frac{1}{6}$
+\begin_inset Formula $g:x\mapsto\frac{7}{6}x-\frac{1}{6}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (c)
 \end_layout
 
@@ -1588,19 +1670,20 @@ status collapsed
 \end_inset
 
  en 
-\begin_inset Formula $g:x\mapsto -2x\sqrt{3}$
+\begin_inset Formula $g:x\mapsto-2x\sqrt{3}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -1612,11 +1695,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -1630,6 +1713,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -1641,6 +1725,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1651,6 +1736,7 @@ Oefeningen
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -1660,12 +1746,10 @@ status collapsed
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 3
 \end_layout
 
@@ -1675,16 +1759,13 @@ status collapsed
 \begin_inset Foot
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 Bron: I.
 \begin_inset space \space{}
-
 \end_inset
 
 De Pauw, B.
 \begin_inset space \space{}
-
 \end_inset
 
 Masselis, 
@@ -1692,6 +1773,7 @@ Masselis,
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1702,6 +1784,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 em
@@ -1714,6 +1797,7 @@ em
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -1724,7 +1808,8 @@ status collapsed
 
 \end_inset
 
-) Een object beweegt tijdens een computerspel langs een rechte lijn van het punt 
+) Een object beweegt tijdens een computerspel langs een rechte lijn van
+ het punt 
 \begin_inset Formula $A$
 \end_inset
 
@@ -1740,7 +1825,9 @@ status collapsed
 \begin_inset Formula $(15,30)$
 \end_inset
 
-. Zoek de vergelijking van deze rechte. Als het voorwerp in het punt 
+.
+ Zoek de vergelijking van deze rechte.
+ Als het voorwerp in het punt 
 \begin_inset Formula $C$
 \end_inset
 
@@ -1749,10 +1836,12 @@ status collapsed
 \end_inset
 
  komt, beweegt de speler de joystick, zodat het object 
-\begin_inset Formula $90^\circ$
+\begin_inset Formula $90^{\circ}$
 \end_inset
 
- naar links draait en in een rechte lijn verder beweegt. Vind de vergelijking van de rechte die het nieuwe pad voorstelt. Teken bovendien beide rechten in één assenstelsel.
+ naar links draait en in een rechte lijn verder beweegt.
+ Vind de vergelijking van de rechte die het nieuwe pad voorstelt.
+ Teken bovendien beide rechten in één assenstelsel.
 \begin_inset Newline newline
 \end_inset
 
@@ -1769,7 +1858,7 @@ status collapsed
 \end_inset
 
  met 
-\begin_inset Formula $\mbox{rico} = r_1$
+\begin_inset Formula $\mbox{rico}=r_{1}$
 \end_inset
 
  en de rechte 
@@ -1777,14 +1866,15 @@ status collapsed
 \end_inset
 
  met 
-\begin_inset Formula $\mbox{rico} = r_2$
+\begin_inset Formula $\mbox{rico}=r_{2}$
 \end_inset
 
 , staan loodrecht op elkaar enkel en alleen als 
-\begin_inset Formula $r_1.r_2=-1$
+\begin_inset Formula $r_{1}.r_{2}=-1$
 \end_inset
 
-. 
+.
+ 
 \begin_inset Newline newline
 \end_inset
 
@@ -1792,11 +1882,11 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -1812,11 +1902,11 @@ Functies van de tweede graad
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -1830,6 +1920,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -1841,6 +1932,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1851,6 +1943,7 @@ Een functie van de tweede graad
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -1861,6 +1954,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -1874,6 +1968,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 begin{definitie}
 \end_layout
@@ -1881,7 +1976,7 @@ begin{definitie}
 \end_inset
 
  Een functie 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto ax^2+bx+c$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto ax^{2}+bx+c$
 \end_inset
 
  waarbij 
@@ -1893,14 +1988,16 @@ begin{definitie}
 \end_inset
 
  gegeven reële getallen zijn en waarvoor 
-\begin_inset Formula $a\neq 0$
+\begin_inset Formula $a\neq0$
 \end_inset
 
-, noemt men een functie van de tweede graad. 
+, noemt men een functie van de tweede graad.
+ 
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{definitie}
@@ -1914,6 +2011,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 end{frame}
 \end_layout
@@ -1924,11 +2022,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -1942,6 +2040,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -1953,6 +2052,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -1963,13 +2063,14 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
 \end_inset
 
  De grafiek van de functie 
-\begin_inset Formula $f:x\mapsto ax^2+bx+c$
+\begin_inset Formula $f:x\mapsto ax^{2}+bx+c$
 \end_inset
 
  is een 
@@ -1991,11 +2092,9 @@ wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-\begin_inset Graphics 
+\begin_inset Graphics
 	filename figuren/parabool.jpg
 	width 3.5in
 
@@ -2011,7 +2110,7 @@ status open
 
 \begin_layout Standard
 met 
-\begin_inset Formula $D=b^2-4ac$
+\begin_inset Formula $D=b^{2}-4ac$
 \end_inset
 
  
@@ -2019,6 +2118,7 @@ met
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -2030,11 +2130,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -2048,6 +2148,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -2059,6 +2160,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -2069,6 +2171,7 @@ Eigenschappen
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -2079,6 +2182,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -2092,6 +2196,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 begin{eigenschap}
 \end_layout
@@ -2099,11 +2204,11 @@ begin{eigenschap}
 \end_inset
 
  Voor 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto ax^2+bx+c$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto ax^{2}+bx+c$
 \end_inset
 
  
-\begin_inset Formula $(a \in \mathbb{R}_0, b,c\in \mathbb{R})$
+\begin_inset Formula $(a\in\mathbb{R}_{0},b,c\in\mathbb{R})$
 \end_inset
 
  geldt 
@@ -2114,7 +2219,8 @@ dom
 \begin_inset Formula $(f)=\mathbb{R}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -2127,7 +2233,8 @@ Dalparabool: bld
 \begin_inset Formula $(f)=[f(-\frac{b}{2a}),+\infty[$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -2135,12 +2242,12 @@ Bergparabool: bld
 \begin_inset Formula $(f)=]-\infty,f(-\frac{b}{2a})]$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-
 \begin_inset Formula $f$
 \end_inset
 
@@ -2148,7 +2255,8 @@ Bergparabool: bld
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -2157,29 +2265,27 @@ Er zijn maximum twee verschillende nulpunten:
 \end_inset
 
  
-\begin_inset Formula $\displaystyle x_{1,2}=\frac{-b\pm \sqrt{D}}{2a}$
+\begin_inset Formula ${\displaystyle x_{1,2}=\frac{-b\pm\sqrt{D}}{2a}}$
 \end_inset
 
 
 \begin_inset space ~
-
 \end_inset
 
 
 \begin_inset space ~
-
 \end_inset
 
 
 \begin_inset space ~
-
 \end_inset
 
  met 
-\begin_inset Formula $D=b^2-4ac$
+\begin_inset Formula $D=b^{2}-4ac$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -2191,15 +2297,16 @@ Het snijpunt met de
 \begin_inset Formula $(0,c)$
 \end_inset
 
- . 
+ .
+ 
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{eigenschap}
@@ -2213,6 +2320,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 end{frame}
 \end_layout
@@ -2223,11 +2331,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -2241,6 +2349,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -2252,6 +2361,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -2262,6 +2372,7 @@ Tekenverloop
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -2273,6 +2384,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 pause
 \end_layout
@@ -2280,11 +2392,11 @@ pause
 \end_inset
 
  Voor 
-\begin_inset Formula $f:\mathbb{R}\rightarrow \mathbb{R}:x\mapsto ax^2+bx+c$
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto ax^{2}+bx+c$
 \end_inset
 
  
-\begin_inset Formula $(a \in \mathbb{R}_0, b,c\in \mathbb{R})$
+\begin_inset Formula $(a\in\mathbb{R}_{0},b,c\in\mathbb{R})$
 \end_inset
 
  geldt 
@@ -2293,7 +2405,6 @@ pause
 
 
 \begin_inset space ~
-
 \end_inset
 
 
@@ -2304,71 +2415,71 @@ pause
 \end_layout
 
 \begin_layout Itemize
-
 \begin_inset Formula $D>0$
 \end_inset
 
  
-\begin_inset Formula \[\begin{array}{|c|ccccccc|}
-        \hline
-        x&-\infty& &~x_1~& &~x_2~& &+\infty\\
-        \hline
-       %     & &                & &                & &                &\\
-        f(x)& &\mbox{teken van}&0&\mbox{teken van}&0&\mbox{teken van}&\\
-            & & a               && -a            &&a&\\
-        \hline
-      \end{array}\]
+\begin_inset Formula 
+\[
+\begin{array}{|c|ccccccc|}
+\hline x & -\infty &  & ~x_{1}~ &  & ~x_{2}~ &  & +\infty\\
+\hline %
+f(x) &  & \mbox{teken van} & 0 & \mbox{teken van} & 0 & \mbox{teken van} & \\
+ &  & a &  & -a &  & a & 
+\\\hline \end{array}
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-
 \begin_inset Formula $D=0$
 \end_inset
 
  
-\begin_inset Formula \[\begin{array}{|c|ccccc|}
-        \hline
-        x&-\infty& &~~~~~~x_1~~~~~~ & &+\infty\\
-        \hline
-        %    & &                & &                &\\
-        f(x)& &~~~\mbox{teken van}~~~&0&~~~\mbox{teken van}~~~&\\
-            & & a               & &a&\\
-        \hline
-      \end{array}\]
+\begin_inset Formula 
+\[
+\begin{array}{|c|ccccc|}
+\hline x & -\infty &  & ~~~~~~x_{1}~~~~~~ &  & +\infty\\
+\hline %
+f(x) &  & ~~~\mbox{teken van}~~~ & 0 & ~~~\mbox{teken van}~~~ & \\
+ &  & a &  & a & 
+\\\hline \end{array}
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-
 \begin_inset Formula $D<0$
 \end_inset
 
  
-\begin_inset Formula \[\begin{array}{|c|ccc|}
-        \hline
-        x&-\infty&  &+\infty\\
-        \hline
-        %    & &                & \\
-        f(x)& &~~~~~~~~~~~~\mbox{teken van}~~~~~~~~~~~~&\\
-            & & a               &\\
-        \hline
-      \end{array}\]
+\begin_inset Formula 
+\[
+\begin{array}{|c|ccc|}
+\hline x & -\infty &  & +\infty\\
+\hline %
+f(x) &  & ~~~~~~~~~~~~\mbox{teken van}~~~~~~~~~~~~ & \\
+ &  & a & 
+\\\hline \end{array}
+\]
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -2380,11 +2491,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -2398,6 +2509,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -2409,6 +2521,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -2419,6 +2532,7 @@ Oefeningen
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -2429,6 +2543,7 @@ status collapsed
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 pause
@@ -2445,106 +2560,97 @@ pause
 
 \begin_deeper
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (a)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $f:x\mapsto -x^2+2x+5$
+\begin_inset Formula $f:x\mapsto-x^{2}+2x+5$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (b)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $f:x\mapsto 3x^2+2x+5$
+\begin_inset Formula $f:x\mapsto3x^{2}+2x+5$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (c)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $f:x\mapsto -x^2+2x-1$
+\begin_inset Formula $f:x\mapsto-x^{2}+2x-1$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (d)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $f:x\mapsto 3x^2+4x$
+\begin_inset Formula $f:x\mapsto3x^{2}+4x$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 (e)
 \end_layout
 
 \end_inset
 
 <+-> 
-\begin_inset Formula $f:x\mapsto x^2-9$
+\begin_inset Formula $f:x\mapsto x^{2}-9$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
-\end_deeper
-\begin_deeper
 \begin_layout Standard
-
 \begin_inset space ~
-
 \end_inset
 
 
@@ -2561,18 +2667,19 @@ status collapsed
 \end_inset
 
  Illustreer dit voor de functie 
-\begin_inset Formula $f:x\mapsto f(x)=x^2$
+\begin_inset Formula $f:x\mapsto f(x)=x^{2}$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
@@ -2584,11 +2691,11 @@ end{frame}
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 begin{frame}
@@ -2602,6 +2709,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 frametitle
 \end_layout
@@ -2613,6 +2721,7 @@ frametitle
 status collapsed
 
 \begin_layout Plain Layout
+
 {
 \end_layout
 
@@ -2623,6 +2732,7 @@ Extra oefeningen
 status collapsed
 
 \begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -2634,6 +2744,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 pause
 \end_layout
@@ -2641,23 +2752,24 @@ pause
 \end_inset
 
  Gegeven 
-\begin_inset Formula \[\begin{array}{l}
-  f:\mathbb{R} \rightarrow \mathbb{R} : x \mapsto f(x)=-2x^2-2x+4\\
-	g:\mathbb{R} \rightarrow \mathbb{R} : x \mapsto g(x)=-4x
-	\end{array}
+\begin_inset Formula 
+\[
+\begin{array}{l}
+f:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto f(x)=-2x^{2}-2x+4\\
+g:\mathbb{R}\rightarrow\mathbb{R}:x\mapsto g(x)=-4x
+\end{array}
 \]
+
 \end_inset
 
 Gevraagd: 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 a)
 \end_layout
 
@@ -2667,7 +2779,8 @@ Bepaal het domein en beeld van
 \begin_inset Formula $f$
 \end_inset
 
-. Geef de nulpunten en het snijpunt met de 
+.
+ Geef de nulpunten en het snijpunt met de 
 \begin_inset Formula $Y$
 \end_inset
 
@@ -2679,16 +2792,15 @@ Bepaal het domein en beeld van
 \begin_inset Formula $g$
 \end_inset
 
-. 
+.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 b)
 \end_layout
 
@@ -2702,16 +2814,16 @@ Teken de grafiek van
 \begin_inset Formula $g$
 \end_inset
 
-. Duid de snijpunten aan op de grafiek. 
+.
+ Duid de snijpunten aan op de grafiek.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 c)
 \end_layout
 
@@ -2725,16 +2837,15 @@ Bereken de snijpunten van
 \begin_inset Formula $g$
 \end_inset
 
- analytisch. 
+ analytisch.
+ 
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 d)
 \end_layout
 
@@ -2745,50 +2856,44 @@ Geef het functievoorschrift van de volgende functies
 
 \begin_deeper
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 i.
 \end_layout
 
 \end_inset
 
 
-\begin_inset Formula $f \circ g$
+\begin_inset Formula $f\circ g$
 \end_inset
 
  
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 ii.
 \end_layout
 
 \end_inset
 
 
-\begin_inset Formula $g \circ f$
+\begin_inset Formula $g\circ f$
 \end_inset
 
  
 \end_layout
 
 \begin_layout Enumerate
-
 \begin_inset Argument item:1
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 iii.
 \end_layout
 
@@ -2803,11 +2908,11 @@ iii.
 
 \end_deeper
 \begin_layout Standard
-
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 end{frame}
